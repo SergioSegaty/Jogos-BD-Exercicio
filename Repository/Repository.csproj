@@ -44,5 +44,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{57D8E919-2B92-4DE6-B4EC-31460FCB0EA3}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estrutura_DB.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

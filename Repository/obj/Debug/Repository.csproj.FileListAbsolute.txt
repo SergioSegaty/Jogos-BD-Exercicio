@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\bin\Debug\Repository.dll
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\bin\Debug\Repository.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\bin\Debug\Model.dll
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\bin\Debug\Model.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\obj\Debug\Repository.dll
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\Repository\obj\Debug\Repository.pdb

@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\View.exe.config
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\View.exe
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\View.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\Model.dll
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\Repository.dll
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\Model.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\bin\Debug\Repository.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.CadastrarJogos.resources
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.csproj.CopyComplete
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.exe
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.pdb
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.ListaCadastroJogos.resources

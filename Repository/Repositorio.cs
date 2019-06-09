@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    class Repositorio
+   public class Repositorio
     {
         string CadeiaDeConexao = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\Documents\Seek3r_Home.mdf;Integrated Security=True;Connect Timeout=30";
 
@@ -38,7 +38,7 @@ namespace Repository
             conexao.Close();
         }
 
-        public List<Jogo> ObtedTodos(int id)
+        public List<Jogo> ObterTodos()
         {
             List<Jogo> listaJogos = new List<Jogo>();
             SqlConnection conexao = new SqlConnection();
@@ -61,11 +61,45 @@ namespace Repository
                 jogo.Genero = row["genero"].ToString();
                 jogo.qtdEstoque = Convert.ToInt32(row["qtd_estoque"]);
                 jogo.DataLancamento = Convert.ToDateTime(row["data_lancamento"]);
+                jogo.Classificacao = row["classificacao"].ToString();
 
                 listaJogos.Add(jogo);
             }
 
             return listaJogos;
+        }
+
+
+        public Jogo ObterPeloId(int id)
+        {
+            Jogo jogo = new Jogo();
+            SqlConnection conexao = new SqlConnection();
+            conexao.ConnectionString = CadeiaDeConexao;
+            conexao.Open();
+
+            SqlCommand comando = new SqlCommand();
+            comando.Connection = conexao;
+            comando.CommandText = @"SELECT * FROM jogos
+            WHERE id = @ID";
+            comando.Parameters.AddWithValue("@ID", id);
+            DataTable tabela = new DataTable();
+            tabela.Load(comando.ExecuteReader());
+            if (tabela.Rows.Count == 1)
+            {
+                DataRow row = tabela.Rows[0];
+                jogo.ID = Convert.ToInt32(row["id"]);
+                jogo.Nome = row["nome"].ToString();
+                jogo.Preco = Convert.ToDecimal(row["preco"]);
+                jogo.Genero = row["genero"].ToString();
+                jogo.qtdEstoque = Convert.ToInt32(row["qtd_estoque"]);
+                jogo.DataLancamento = Convert.ToDateTime(row["data_lancamento"]);
+                jogo.Classificacao = row["classificacao"].ToString();
+
+                return jogo;
+            }
+
+
+            return null;
         }
     }
 }

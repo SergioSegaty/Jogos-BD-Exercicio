@@ -9,3 +9,5 @@
 	qtd_estoque INT
 
 );
+
+SELECT * FROM jogos;

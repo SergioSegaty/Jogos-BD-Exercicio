@@ -65,7 +65,7 @@
             this.lblPreco.Location = new System.Drawing.Point(9, 75);
             this.lblPreco.Name = "lblPreco";
             this.lblPreco.Size = new System.Drawing.Size(35, 13);
-            this.lblPreco.TabIndex = 0;
+            this.lblPreco.TabIndex = 4;
             this.lblPreco.Text = "Preço";
             // 
             // txtPreco
@@ -73,7 +73,7 @@
             this.txtPreco.Location = new System.Drawing.Point(12, 91);
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(100, 20);
-            this.txtPreco.TabIndex = 1;
+            this.txtPreco.TabIndex = 5;
             // 
             // lblEstoque
             // 
@@ -81,7 +81,7 @@
             this.lblEstoque.Location = new System.Drawing.Point(9, 137);
             this.lblEstoque.Name = "lblEstoque";
             this.lblEstoque.Size = new System.Drawing.Size(63, 13);
-            this.lblEstoque.TabIndex = 0;
+            this.lblEstoque.TabIndex = 8;
             this.lblEstoque.Text = "Em estoque";
             // 
             // txtEstoque
@@ -89,7 +89,7 @@
             this.txtEstoque.Location = new System.Drawing.Point(12, 153);
             this.txtEstoque.Name = "txtEstoque";
             this.txtEstoque.Size = new System.Drawing.Size(100, 20);
-            this.txtEstoque.TabIndex = 1;
+            this.txtEstoque.TabIndex = 9;
             // 
             // dtpDataLancamento
             // 
@@ -97,16 +97,16 @@
             this.dtpDataLancamento.Location = new System.Drawing.Point(12, 218);
             this.dtpDataLancamento.Name = "dtpDataLancamento";
             this.dtpDataLancamento.Size = new System.Drawing.Size(100, 20);
-            this.dtpDataLancamento.TabIndex = 2;
+            this.dtpDataLancamento.TabIndex = 11;
             // 
             // lblDataLancamento
             // 
             this.lblDataLancamento.AutoSize = true;
             this.lblDataLancamento.Location = new System.Drawing.Point(12, 202);
             this.lblDataLancamento.Name = "lblDataLancamento";
-            this.lblDataLancamento.Size = new System.Drawing.Size(35, 13);
-            this.lblDataLancamento.TabIndex = 0;
-            this.lblDataLancamento.Text = "label1";
+            this.lblDataLancamento.Size = new System.Drawing.Size(107, 13);
+            this.lblDataLancamento.TabIndex = 10;
+            this.lblDataLancamento.Text = "Data de Lançamento";
             // 
             // cbGenero
             // 
@@ -140,7 +140,7 @@
             this.cbClassificacao.Location = new System.Drawing.Point(168, 91);
             this.cbClassificacao.Name = "cbClassificacao";
             this.cbClassificacao.Size = new System.Drawing.Size(121, 21);
-            this.cbClassificacao.TabIndex = 3;
+            this.cbClassificacao.TabIndex = 7;
             // 
             // lblGenero
             // 
@@ -148,7 +148,7 @@
             this.lblGenero.Location = new System.Drawing.Point(165, 12);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(42, 13);
-            this.lblGenero.TabIndex = 0;
+            this.lblGenero.TabIndex = 2;
             this.lblGenero.Text = "Genero";
             // 
             // lblClassificacao
@@ -157,7 +157,7 @@
             this.lblClassificacao.Location = new System.Drawing.Point(165, 75);
             this.lblClassificacao.Name = "lblClassificacao";
             this.lblClassificacao.Size = new System.Drawing.Size(69, 13);
-            this.lblClassificacao.TabIndex = 0;
+            this.lblClassificacao.TabIndex = 6;
             this.lblClassificacao.Text = "Classificação";
             // 
             // btnCadastrar
@@ -167,9 +167,10 @@
             this.btnCadastrar.Location = new System.Drawing.Point(181, 189);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(94, 49);
-            this.btnCadastrar.TabIndex = 4;
+            this.btnCadastrar.TabIndex = 12;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = false;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // CadastrarJogos
             // 
