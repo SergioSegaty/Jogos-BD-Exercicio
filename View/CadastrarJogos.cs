@@ -84,69 +84,9 @@ namespace View
 
             jogo.DataLancamento = dtpDataLancamento.Value;
 
-            Repositorio.Repositorio repositorio = new Repositorio.Repositorio();
+            RepositorioJogos repositorio = new RepositorioJogos();
             repositorio.InserirRegistro(jogo);
 
-
-        }
-
-        private void cbClassificacao_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbGenero_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtpDataLancamento_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtEstoque_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblEstoque_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPreco_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblDataLancamento_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblClassificacao_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPreco_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblGenero_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtNome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblNome_Click(object sender, EventArgs e)
-        {
 
         }
     }

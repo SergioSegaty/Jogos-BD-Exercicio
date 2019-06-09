@@ -51,7 +51,6 @@
             this.lblNome.Size = new System.Drawing.Size(35, 13);
             this.lblNome.TabIndex = 0;
             this.lblNome.Text = "Nome";
-            this.lblNome.Click += new System.EventHandler(this.lblNome_Click);
             // 
             // txtNome
             // 
@@ -59,7 +58,6 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 1;
-            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // lblPreco
             // 
@@ -69,7 +67,6 @@
             this.lblPreco.Size = new System.Drawing.Size(35, 13);
             this.lblPreco.TabIndex = 4;
             this.lblPreco.Text = "Preço";
-            this.lblPreco.Click += new System.EventHandler(this.lblPreco_Click);
             // 
             // txtPreco
             // 
@@ -77,7 +74,6 @@
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(100, 20);
             this.txtPreco.TabIndex = 5;
-            this.txtPreco.TextChanged += new System.EventHandler(this.txtPreco_TextChanged);
             // 
             // lblEstoque
             // 
@@ -87,7 +83,6 @@
             this.lblEstoque.Size = new System.Drawing.Size(63, 13);
             this.lblEstoque.TabIndex = 8;
             this.lblEstoque.Text = "Em estoque";
-            this.lblEstoque.Click += new System.EventHandler(this.lblEstoque_Click);
             // 
             // txtEstoque
             // 
@@ -95,7 +90,6 @@
             this.txtEstoque.Name = "txtEstoque";
             this.txtEstoque.Size = new System.Drawing.Size(100, 20);
             this.txtEstoque.TabIndex = 9;
-            this.txtEstoque.TextChanged += new System.EventHandler(this.txtEstoque_TextChanged);
             // 
             // dtpDataLancamento
             // 
@@ -104,7 +98,6 @@
             this.dtpDataLancamento.Name = "dtpDataLancamento";
             this.dtpDataLancamento.Size = new System.Drawing.Size(100, 20);
             this.dtpDataLancamento.TabIndex = 11;
-            this.dtpDataLancamento.ValueChanged += new System.EventHandler(this.dtpDataLancamento_ValueChanged);
             // 
             // lblDataLancamento
             // 
@@ -114,7 +107,6 @@
             this.lblDataLancamento.Size = new System.Drawing.Size(107, 13);
             this.lblDataLancamento.TabIndex = 10;
             this.lblDataLancamento.Text = "Data de Lançamento";
-            this.lblDataLancamento.Click += new System.EventHandler(this.lblDataLancamento_Click);
             // 
             // cbGenero
             // 
@@ -133,7 +125,6 @@
             this.cbGenero.Name = "cbGenero";
             this.cbGenero.Size = new System.Drawing.Size(121, 21);
             this.cbGenero.TabIndex = 3;
-            this.cbGenero.SelectedIndexChanged += new System.EventHandler(this.cbGenero_SelectedIndexChanged);
             // 
             // cbClassificacao
             // 
@@ -150,7 +141,6 @@
             this.cbClassificacao.Name = "cbClassificacao";
             this.cbClassificacao.Size = new System.Drawing.Size(121, 21);
             this.cbClassificacao.TabIndex = 7;
-            this.cbClassificacao.SelectedIndexChanged += new System.EventHandler(this.cbClassificacao_SelectedIndexChanged);
             // 
             // lblGenero
             // 
@@ -160,7 +150,6 @@
             this.lblGenero.Size = new System.Drawing.Size(42, 13);
             this.lblGenero.TabIndex = 2;
             this.lblGenero.Text = "Genero";
-            this.lblGenero.Click += new System.EventHandler(this.lblGenero_Click);
             // 
             // lblClassificacao
             // 
@@ -170,7 +159,6 @@
             this.lblClassificacao.Size = new System.Drawing.Size(69, 13);
             this.lblClassificacao.TabIndex = 6;
             this.lblClassificacao.Text = "Classificação";
-            this.lblClassificacao.Click += new System.EventHandler(this.lblClassificacao_Click);
             // 
             // btnCadastrar
             // 

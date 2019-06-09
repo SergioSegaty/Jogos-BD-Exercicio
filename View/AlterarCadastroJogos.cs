@@ -93,9 +93,12 @@ namespace View
                 txtEstoque.Focus();
                 return;
             }
+            jogo.ID = Convert.ToInt32(lblID.Text);
 
             jogo.DataLancamento = dtpDataLancamento.Value;
-            
+            RepositorioJogos repositorio = new RepositorioJogos();
+            repositorio.AlterarRegistroPeloJogo(jogo);
+            Close();
             
             
         }

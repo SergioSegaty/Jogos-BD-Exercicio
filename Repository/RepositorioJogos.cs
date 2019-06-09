@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repositorio
 {
-   public class Repositorio
+   public class RepositorioJogos
     {
         string CadeiaDeConexao = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\Documents\Seek3r_Home.mdf;Integrated Security=True;Connect Timeout=30";
 
@@ -103,7 +103,7 @@ namespace Repositorio
             return null;
         }
 
-        public void AlterarRegistroPeloId(Jogo jogo)
+        public void AlterarRegistroPeloJogo(Jogo jogo)
         {
             
             SqlConnection conexao = new SqlConnection();

@@ -14,3 +14,4 @@ C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View
 C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.exe
 C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.pdb
 C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.ListaCadastroJogos.resources
+C:\Users\user\Desktop\GitHub\Exericios-BD\Jogos-BD-Exercicio\View\obj\Debug\View.AlterarCadastroJogos.resources

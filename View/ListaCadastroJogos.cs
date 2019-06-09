@@ -32,7 +32,7 @@ namespace View
 
         private void AtualizarTabela()
         {
-            Repositorio.Repositorio repositorio = new Repositorio.Repositorio();
+            RepositorioJogos repositorio = new RepositorioJogos();
             List<Jogo> listaJogos = repositorio.ObterTodos();
             dataGridView1.Rows.Clear();
             for (int i = 0; i < listaJogos.Count; i++)
@@ -58,7 +58,13 @@ namespace View
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+            int id = (int)dataGridView1.CurrentRow.Cells[0].Value;
+
+            RepositorioJogos repositorio = new RepositorioJogos();
+            Jogo jogo = repositorio.ObterPeloId(id);
+
+            AlterarCadastroJogos alterarCadastroJogos = new AlterarCadastroJogos(jogo);
+            alterarCadastroJogos.ShowDialog();
         }
     }
 }
