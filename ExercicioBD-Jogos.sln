@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{11C6E09C-D042-4A5F-A8A7-C951DDBAE48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{63F4AD6C-41C5-4EBE-974C-0C0A9CF4F976}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repository\Repositorio.csproj", "{63F4AD6C-41C5-4EBE-974C-0C0A9CF4F976}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{57D8E919-2B92-4DE6-B4EC-31460FCB0EA3}"
 EndProject

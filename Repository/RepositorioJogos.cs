@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace Repositorio
 {
    public class Repositorio
     {
@@ -66,6 +66,7 @@ namespace Repository
                 listaJogos.Add(jogo);
             }
 
+            conexao.Close();
             return listaJogos;
         }
 
@@ -98,8 +99,39 @@ namespace Repository
                 return jogo;
             }
 
-
+            conexao.Close();
             return null;
         }
+
+        public void AlterarRegistroPeloId(Jogo jogo)
+        {
+            
+            SqlConnection conexao = new SqlConnection();
+            conexao.ConnectionString = CadeiaDeConexao;
+            conexao.Open();
+
+            SqlCommand comando = new SqlCommand();
+            comando.Connection = conexao;
+            comando.CommandText = @"UPDATE jogos SET
+            nome = @NOME,
+            preco = @PRECO,
+            data_lancamento = @DATA_LANCAMENTO,
+            genero = @GENERO,
+            qtd_estoque = @QTD_ESTOQUE,
+            classificacao = @CLASSIFICACAO
+
+            WHERE id = @ID";
+
+            comando.Parameters.AddWithValue("@NOME", jogo.Nome);
+            comando.Parameters.AddWithValue("@PRECO", jogo.Preco);
+            comando.Parameters.AddWithValue("@DATA_LANCAMENTO", jogo.DataLancamento);
+            comando.Parameters.AddWithValue("@GENERO", jogo.Genero);
+            comando.Parameters.AddWithValue("@QTD_ESTOQUE", jogo.qtdEstoque);
+            comando.Parameters.AddWithValue("@CLASSIFICACAO", jogo.Classificacao);
+            comando.Parameters.AddWithValue("@ID", jogo.ID);
+            comando.ExecuteNonQuery();
+            conexao.Close();
+        }
+
     }
 }

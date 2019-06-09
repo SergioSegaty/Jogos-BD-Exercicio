@@ -1,5 +1,5 @@
 ﻿using Model;
-using Repository;
+using Repositorio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,7 +32,7 @@ namespace View
 
         private void AtualizarTabela()
         {
-            Repositorio repositorio = new Repositorio();
+            Repositorio.Repositorio repositorio = new Repositorio.Repositorio();
             List<Jogo> listaJogos = repositorio.ObterTodos();
             dataGridView1.Rows.Clear();
             for (int i = 0; i < listaJogos.Count; i++)
@@ -54,6 +54,11 @@ namespace View
                 });
             }
 
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }

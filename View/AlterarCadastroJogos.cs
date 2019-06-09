@@ -1,5 +1,4 @@
 ﻿using Model;
-using Repositorio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,13 +8,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Repositorio;
 
 namespace View
 {
-    public partial class CadastrarJogos : Form
+    public partial class AlterarCadastroJogos : Form
     {
-        public CadastrarJogos()
+
+        public AlterarCadastroJogos(Jogo jogo)
+        {
+            InitializeComponent();
+            txtNome.Text = jogo.Nome;
+            cbGenero.Text = jogo.Genero;
+            txtPreco.Text = jogo.Preco.ToString();
+            cbClassificacao.Text = jogo.Classificacao;
+            txtEstoque.Text = jogo.qtdEstoque.ToString();
+            dtpDataLancamento.Value = jogo.DataLancamento;
+            lblID.Text = jogo.ID.ToString();
+        }
+
+        public AlterarCadastroJogos()
         {
             InitializeComponent();
         }
@@ -83,71 +95,9 @@ namespace View
             }
 
             jogo.DataLancamento = dtpDataLancamento.Value;
-
-            Repositorio.Repositorio repositorio = new Repositorio.Repositorio();
-            repositorio.InserirRegistro(jogo);
-
-
-        }
-
-        private void cbClassificacao_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbGenero_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtpDataLancamento_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtEstoque_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblEstoque_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPreco_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblDataLancamento_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblClassificacao_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPreco_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblGenero_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtNome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblNome_Click(object sender, EventArgs e)
-        {
-
+            
+            
+            
         }
     }
 }

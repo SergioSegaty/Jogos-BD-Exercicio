@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlterarCadastroJogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlterarCadastroJogos.Designer.cs">
+      <DependentUpon>AlterarCadastroJogos.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastrarJogos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlterarCadastroJogos.resx">
+      <DependentUpon>AlterarCadastroJogos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastrarJogos.resx">
       <DependentUpon>CadastrarJogos.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,9 +102,9 @@
       <Project>{57d8e919-2b92-4de6-b4ec-31460fcb0ea3}</Project>
       <Name>Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Repository\Repository.csproj">
+    <ProjectReference Include="..\Repository\Repositorio.csproj">
       <Project>{63f4ad6c-41c5-4ebe-974c-0c0a9cf4f976}</Project>
-      <Name>Repository</Name>
+      <Name>Repositorio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
