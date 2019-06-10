@@ -35,7 +35,7 @@ namespace View.Consoles
 
         void AtualizarCBVersao()
         {
-          
+
             if (cbTipo.Text.ToLower() == "playstation")
             {
                 cbVersao.Items.Clear();
@@ -114,54 +114,5 @@ namespace View.Consoles
 
         }
 
-        private void txtEstoque_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPreco_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblVersao_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblEstoque_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblID_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblCodigo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblTipo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbTipo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbVersao_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

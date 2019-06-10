@@ -48,7 +48,6 @@
             this.cbVersao.Name = "cbVersao";
             this.cbVersao.Size = new System.Drawing.Size(132, 21);
             this.cbVersao.TabIndex = 0;
-            this.cbVersao.SelectedIndexChanged += new System.EventHandler(this.cbVersao_SelectedIndexChanged);
             // 
             // lblTipo
             // 
@@ -58,7 +57,6 @@
             this.lblTipo.Size = new System.Drawing.Size(37, 13);
             this.lblTipo.TabIndex = 1;
             this.lblTipo.Text = "Marca";
-            this.lblTipo.Click += new System.EventHandler(this.lblTipo_Click);
             // 
             // lblVersao
             // 
@@ -68,7 +66,6 @@
             this.lblVersao.Size = new System.Drawing.Size(40, 13);
             this.lblVersao.TabIndex = 1;
             this.lblVersao.Text = "Versão";
-            this.lblVersao.Click += new System.EventHandler(this.lblVersao_Click);
             // 
             // lblCodigo
             // 
@@ -78,7 +75,6 @@
             this.lblCodigo.Size = new System.Drawing.Size(43, 13);
             this.lblCodigo.TabIndex = 1;
             this.lblCodigo.Text = "Código:";
-            this.lblCodigo.Click += new System.EventHandler(this.lblCodigo_Click);
             // 
             // lblID
             // 
@@ -89,7 +85,6 @@
             this.lblID.TabIndex = 1;
             this.lblID.Text = "0";
             this.lblID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblID.Click += new System.EventHandler(this.lblID_Click);
             // 
             // label5
             // 
@@ -99,7 +94,6 @@
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "Preço";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtPreco
             // 
@@ -107,7 +101,6 @@
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(106, 20);
             this.txtPreco.TabIndex = 2;
-            this.txtPreco.TextChanged += new System.EventHandler(this.txtPreco_TextChanged);
             // 
             // btnCadastrar
             // 
@@ -131,7 +124,6 @@
             this.cbTipo.Name = "cbTipo";
             this.cbTipo.Size = new System.Drawing.Size(132, 21);
             this.cbTipo.TabIndex = 0;
-            this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.cbTipo_SelectedIndexChanged);
             this.cbTipo.Leave += new System.EventHandler(this.cbTipo_Leave);
             // 
             // lblEstoque
@@ -142,7 +134,6 @@
             this.lblEstoque.Size = new System.Drawing.Size(121, 13);
             this.lblEstoque.TabIndex = 1;
             this.lblEstoque.Text = "Quantidade em Estoque";
-            this.lblEstoque.Click += new System.EventHandler(this.lblEstoque_Click);
             // 
             // txtEstoque
             // 
@@ -150,7 +141,6 @@
             this.txtEstoque.Name = "txtEstoque";
             this.txtEstoque.Size = new System.Drawing.Size(118, 20);
             this.txtEstoque.TabIndex = 2;
-            this.txtEstoque.TextChanged += new System.EventHandler(this.txtEstoque_TextChanged);
             // 
             // CadastroConsole
             // 
