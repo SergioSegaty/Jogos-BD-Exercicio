@@ -46,9 +46,9 @@
             this.btnCadastrar.BackColor = System.Drawing.Color.LightGreen;
             this.btnCadastrar.Location = new System.Drawing.Point(164, 116);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(84, 74);
+            this.btnCadastrar.Size = new System.Drawing.Size(87, 74);
             this.btnCadastrar.TabIndex = 14;
-            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.Text = "AlterarCadastro";
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
