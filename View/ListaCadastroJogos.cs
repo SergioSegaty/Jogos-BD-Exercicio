@@ -44,7 +44,7 @@ namespace View
                     jaLancou = "Não";
                 }
                 string precoTexto = $"R$ {jogo.Preco}";
-                
+
 
 
                 dataGridView1.Rows.Add(new object[]
@@ -65,6 +65,27 @@ namespace View
 
             AlterarCadastroJogos alterarCadastroJogos = new AlterarCadastroJogos(jogo);
             alterarCadastroJogos.ShowDialog();
+        }
+
+        private void btnDeletar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count <= 0)
+            {
+                MessageBox.Show("Selecione uma linha para deletar");
+            }
+            else
+            {
+                int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+                DialogResult result = MessageBox.Show("Deseja mesmo Deletar?", "AVISO",
+                            MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    RepositorioJogos repositorio = new RepositorioJogos();
+                    repositorio.DeletarPeloId(id);
+                    AtualizarTabela();
+
+                }
+            }
         }
     }
 }
