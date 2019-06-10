@@ -11,3 +11,12 @@
 );
 
 SELECT * FROM jogos;
+
+CREATE TABLE consoles (
+
+	id INT PRIMARY KEY IDENTITY(1,1),
+	tipo VARCHAR(100),
+	versao VARCHAR(100),
+	preco DECIMAL(8,2),
+	qtd_estoque INT
+);

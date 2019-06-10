@@ -202,7 +202,7 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Nome";
             // 
-            // AletrarCadastroJogo
+            // AlterarCadastroJogos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -223,7 +223,8 @@
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblNome);
-            this.Name = "AletrarCadastroJogo";
+            this.Name = "AlterarCadastroJogos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AletrarCadastroJogo";
             this.ResumeLayout(false);
             this.PerformLayout();

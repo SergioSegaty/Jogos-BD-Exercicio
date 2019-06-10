@@ -191,6 +191,7 @@
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.Name = "CadastrarJogos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Cadastrar Jogo";
             this.ResumeLayout(false);
             this.PerformLayout();

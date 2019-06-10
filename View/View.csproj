@@ -46,33 +46,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlterarCadastroJogos.cs">
+    <Compile Include="Consoles\AlterarCadastroConsole.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlterarCadastroJogos.Designer.cs">
+    <Compile Include="Consoles\AlterarCadastroConsole.Designer.cs">
+      <DependentUpon>AlterarCadastroConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consoles\CadastroConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consoles\CadastroConsole.Designer.cs">
+      <DependentUpon>CadastroConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consoles\ListaConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consoles\ListaConsole.Designer.cs">
+      <DependentUpon>ListaConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogos\AlterarCadastroJogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jogos\AlterarCadastroJogos.Designer.cs">
       <DependentUpon>AlterarCadastroJogos.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarJogos.cs">
+    <Compile Include="Jogos\CadastrarJogos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastrarJogos.Designer.cs">
+    <Compile Include="Jogos\CadastrarJogos.Designer.cs">
       <DependentUpon>CadastrarJogos.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListaCadastroJogos.cs">
+    <Compile Include="CadastroLojaJogos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListaCadastroJogos.Designer.cs">
+    <Compile Include="CadastroLojaJogos.Designer.cs">
+      <DependentUpon>CadastroLojaJogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogos\ListaCadastroJogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jogos\ListaCadastroJogos.Designer.cs">
       <DependentUpon>ListaCadastroJogos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AlterarCadastroJogos.resx">
+    <EmbeddedResource Include="Consoles\AlterarCadastroConsole.resx">
+      <DependentUpon>AlterarCadastroConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consoles\CadastroConsole.resx">
+      <DependentUpon>CadastroConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consoles\ListaConsole.resx">
+      <DependentUpon>ListaConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jogos\AlterarCadastroJogos.resx">
       <DependentUpon>AlterarCadastroJogos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarJogos.resx">
+    <EmbeddedResource Include="Jogos\CadastrarJogos.resx">
       <DependentUpon>CadastrarJogos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListaCadastroJogos.resx">
+    <EmbeddedResource Include="CadastroLojaJogos.resx">
+      <DependentUpon>CadastroLojaJogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jogos\ListaCadastroJogos.resx">
       <DependentUpon>ListaCadastroJogos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

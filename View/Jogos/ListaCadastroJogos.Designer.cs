@@ -132,6 +132,7 @@
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ListaCadastroJogos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListaCadastroJogos";
             this.Activated += new System.EventHandler(this.ListaCadastroJogos_Activated);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
