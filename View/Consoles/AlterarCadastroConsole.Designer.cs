@@ -44,7 +44,7 @@
             // btnCadastrar
             // 
             this.btnCadastrar.BackColor = System.Drawing.Color.LightGreen;
-            this.btnCadastrar.Location = new System.Drawing.Point(164, 116);
+            this.btnCadastrar.Location = new System.Drawing.Point(174, 116);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(87, 74);
             this.btnCadastrar.TabIndex = 14;
@@ -54,7 +54,7 @@
             // 
             // txtEstoque
             // 
-            this.txtEstoque.Location = new System.Drawing.Point(150, 66);
+            this.txtEstoque.Location = new System.Drawing.Point(160, 66);
             this.txtEstoque.Name = "txtEstoque";
             this.txtEstoque.Size = new System.Drawing.Size(118, 20);
             this.txtEstoque.TabIndex = 12;
@@ -63,7 +63,7 @@
             // 
             this.txtPreco.Location = new System.Drawing.Point(10, 170);
             this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Size = new System.Drawing.Size(118, 20);
+            this.txtPreco.Size = new System.Drawing.Size(107, 20);
             this.txtPreco.TabIndex = 13;
             // 
             // lblVersao
@@ -78,7 +78,7 @@
             // lblEstoque
             // 
             this.lblEstoque.AutoSize = true;
-            this.lblEstoque.Location = new System.Drawing.Point(147, 49);
+            this.lblEstoque.Location = new System.Drawing.Point(157, 49);
             this.lblEstoque.Name = "lblEstoque";
             this.lblEstoque.Size = new System.Drawing.Size(121, 13);
             this.lblEstoque.TabIndex = 7;
@@ -130,7 +130,7 @@
             "Nintendo"});
             this.cbTipo.Location = new System.Drawing.Point(10, 66);
             this.cbTipo.Name = "cbTipo";
-            this.cbTipo.Size = new System.Drawing.Size(118, 21);
+            this.cbTipo.Size = new System.Drawing.Size(134, 21);
             this.cbTipo.TabIndex = 4;
             this.cbTipo.Leave += new System.EventHandler(this.cbTipo_Leave);
             // 
@@ -139,14 +139,14 @@
             this.cbVersao.FormattingEnabled = true;
             this.cbVersao.Location = new System.Drawing.Point(10, 116);
             this.cbVersao.Name = "cbVersao";
-            this.cbVersao.Size = new System.Drawing.Size(118, 21);
+            this.cbVersao.Size = new System.Drawing.Size(134, 21);
             this.cbVersao.TabIndex = 5;
             // 
             // AlterarCadastroConsole
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(283, 249);
+            this.ClientSize = new System.Drawing.Size(293, 249);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtEstoque);
             this.Controls.Add(this.txtPreco);
@@ -159,6 +159,7 @@
             this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.cbVersao);
             this.Name = "AlterarCadastroConsole";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AlterarCadastroConsole";
             this.ResumeLayout(false);
             this.PerformLayout();

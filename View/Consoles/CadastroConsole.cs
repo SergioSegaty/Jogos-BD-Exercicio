@@ -23,7 +23,7 @@ namespace View.Consoles
         {
             if (cbTipo.Text == "")
             {
-                cbVersao.Items.Add("Selecione Um Tipo");
+                cbVersao.Items.Add("Selecione uma Marca");
                 cbVersao.SelectedIndex = 0;
             }
         }

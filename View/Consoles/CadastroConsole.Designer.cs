@@ -46,7 +46,7 @@
             this.cbVersao.FormattingEnabled = true;
             this.cbVersao.Location = new System.Drawing.Point(13, 117);
             this.cbVersao.Name = "cbVersao";
-            this.cbVersao.Size = new System.Drawing.Size(118, 21);
+            this.cbVersao.Size = new System.Drawing.Size(132, 21);
             this.cbVersao.TabIndex = 0;
             this.cbVersao.SelectedIndexChanged += new System.EventHandler(this.cbVersao_SelectedIndexChanged);
             // 
@@ -105,14 +105,14 @@
             // 
             this.txtPreco.Location = new System.Drawing.Point(13, 171);
             this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Size = new System.Drawing.Size(118, 20);
+            this.txtPreco.Size = new System.Drawing.Size(106, 20);
             this.txtPreco.TabIndex = 2;
             this.txtPreco.TextChanged += new System.EventHandler(this.txtPreco_TextChanged);
             // 
             // btnCadastrar
             // 
             this.btnCadastrar.BackColor = System.Drawing.Color.LightGreen;
-            this.btnCadastrar.Location = new System.Drawing.Point(167, 117);
+            this.btnCadastrar.Location = new System.Drawing.Point(179, 117);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(84, 74);
             this.btnCadastrar.TabIndex = 3;
@@ -129,7 +129,7 @@
             "Nintendo"});
             this.cbTipo.Location = new System.Drawing.Point(13, 67);
             this.cbTipo.Name = "cbTipo";
-            this.cbTipo.Size = new System.Drawing.Size(118, 21);
+            this.cbTipo.Size = new System.Drawing.Size(132, 21);
             this.cbTipo.TabIndex = 0;
             this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.cbTipo_SelectedIndexChanged);
             this.cbTipo.Leave += new System.EventHandler(this.cbTipo_Leave);
@@ -137,7 +137,7 @@
             // lblEstoque
             // 
             this.lblEstoque.AutoSize = true;
-            this.lblEstoque.Location = new System.Drawing.Point(150, 50);
+            this.lblEstoque.Location = new System.Drawing.Point(162, 50);
             this.lblEstoque.Name = "lblEstoque";
             this.lblEstoque.Size = new System.Drawing.Size(121, 13);
             this.lblEstoque.TabIndex = 1;
@@ -146,7 +146,7 @@
             // 
             // txtEstoque
             // 
-            this.txtEstoque.Location = new System.Drawing.Point(153, 67);
+            this.txtEstoque.Location = new System.Drawing.Point(165, 67);
             this.txtEstoque.Name = "txtEstoque";
             this.txtEstoque.Size = new System.Drawing.Size(118, 20);
             this.txtEstoque.TabIndex = 2;
@@ -156,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(283, 249);
+            this.ClientSize = new System.Drawing.Size(293, 249);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtEstoque);
             this.Controls.Add(this.txtPreco);
@@ -169,6 +169,7 @@
             this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.cbVersao);
             this.Name = "CadastroConsole";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "CadastroConsole";
             this.Activated += new System.EventHandler(this.CadastroConsole_Activated);
             this.ResumeLayout(false);
